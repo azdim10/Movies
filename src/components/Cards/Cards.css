@@ -1,0 +1,64 @@
+.card-condainer {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family : 'Inter'
+}
+.result{
+    position: relative;
+    padding: 0;
+    margin-bottom : 16px;
+    width : 451px;
+    /* max-height: 279px; */
+    display : flex;
+    gap: 16px;
+    flex-direction: row;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
+}
+.result_item{
+    display: flex;
+    flex-direction: row;
+    gap: 12px
+}
+.result_img{
+    max-width: 183px;
+    max-height: 281px;
+}
+.result_title{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 200px;
+}
+.result_info{
+    display: flex;
+    flex-direction: column;
+}
+.vote_average{
+    border: 3px solid rgba(233,209,0,1);
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.result_date{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color:rgba(130,126,126,1)
+}
+.result_genres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
